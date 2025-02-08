@@ -16,6 +16,9 @@ func (s *SignedBeaconBlockBellatrix) isSignedBeaconBlock() {
 func (s *SignedBeaconBlockCapella) isSignedBeaconBlock() {
 }
 
+func (s *SignedBeaconBlockDeneb) isSignedBeaconBlock() {
+}
+
 type BeaconBlock interface {
 	isBeaconBlock()
 }
@@ -32,6 +35,9 @@ func (s *BeaconBlockBellatrix) isBeaconBlock() {
 func (s *BeaconBlockCapella) isBeaconBlock() {
 }
 
+func (s *BeaconBlockDeneb) isBeaconBlock() {
+}
+
 type BeaconState interface {
 	isBeaconState()
 }
@@ -46,4 +52,7 @@ func (s *BeaconStateBellatrix) isBeaconState() {
 }
 
 func (s *BeaconStateCapella) isBeaconState() {
+}
+
+func (s *BeaconStateDeneb) isBeaconState() {
 }

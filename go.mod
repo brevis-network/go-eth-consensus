@@ -3,7 +3,7 @@ module github.com/umbracle/go-eth-consensus
 go 1.18
 
 require (
-	github.com/ferranbt/fastssz v0.1.3
+	github.com/ferranbt/fastssz v0.1.4
 	github.com/golang/snappy v0.0.3
 	github.com/hashicorp/go-uuid v1.0.3
 	github.com/kilic/bls12-381 v0.1.0
@@ -28,6 +28,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.4.0 // indirect
+	github.com/emicklei/dot v1.6.2 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/gorilla/websocket v1.4.1 // indirect
 	github.com/klauspost/compress v1.4.1 // indirect
